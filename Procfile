@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT backend_flask:app
+waitress-serve --port=5000 backend_flask:backend_flask
