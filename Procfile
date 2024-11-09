@@ -1,1 +1,1 @@
-waitress-serve --port=5000 backend_flask:backend_flask
+web: gunicorn backend_flask:app --bind 0.0.0.0:$PORT
